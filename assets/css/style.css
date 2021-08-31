@@ -1,0 +1,35 @@
+.main-header {
+  font-family: "Allison", cursive;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.align-center {
+  text-align: center;
+  font-size: 100px;
+}
+
+.art-header {
+  font-family: "Merriweather", serif;
+  color: blue;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.art-header + p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: inherit;
+  font-family: monospace;
+  line-height: 1.3em;
+  text-align: justify;
+}
+
+.page-link {
+  text-decoration: line-through 3px wavy magenta;
+  /* text-decoration-line: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-style: double;
+  text-decoration-color: rgb(255, 0, 0); */
+}
