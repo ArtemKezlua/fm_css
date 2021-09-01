@@ -1,19 +1,25 @@
-.main-article {
-  font-size: 60px;
-  border: red 5px solid;
-  color: aqua;
+.img {
+  width: 400px;
+  box-sizing: border-box;
+  border: 12px solid red;
+  padding: 10px 5px 10px 5px;
+  margin: 30px;
+  /* height: 400px; */
 }
 
-.article-header {
-  font-size: 1.1em;
-  border: inherit;
+.span {
+  width: 300px;
+  border: 12px solid red;
+  padding: 10px 5px 10px 5px;
 }
 
-.article-content {
-  font-size: initial;
+.div {
+  border: 1px solid red;
+  width: 300px;
+  margin: 50px auto;
 }
 
-.article-link {
-  color: inherit;
-  text-decoration: none;
+.aligin-center {
+  margin: -50px auto;
+  text-align: center;
 }
